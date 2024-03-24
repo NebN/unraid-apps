@@ -1,15 +1,16 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>unraid-simple-monitoring-api</Name>
-  <Repository>https://github.com/NebN/unraid-simple-monitoring-api/blob/master/conf/conf.yml</Repository>
-  <Registry/>
+  <Repository>nebn/unraid-simple-monitoring-api:latest</Repository>
+  <Registry>https://hub.docker.com/</Registry>
   <Network>host</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>TODO</Support>
-  <Project/>
+  <Project>https://github.com/NebN/unraid-simple-monitoring-api</Project>
   <Overview>A simple REST API to monitor basic metrics such as Disk utilization and Network traffic.&#xD;
+Initially created for use with https://gethomepage.dev/&#xD;
 &#xD;
 ===== Configuration =====&#xD;
 By default the application expects a configuration file in&#xD;
@@ -22,11 +23,11 @@ Make a request to http://your-unraid-ip:24940</Overview>
   <Category>Tools: Network:Other Status:Beta</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon/>
+  <Icon>https://github.com/NebN/unraid-simple-monitoring-api/blob/master/assets/logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1711238626</DateInstalled>
+  <DateInstalled>1711297892</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
