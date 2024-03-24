@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>unraid-simple-monitoring-api</Name>
+  <Repository>https://github.com/NebN/unraid-simple-reporting-api/blob/master/conf/conf.yml</Repository>
+  <Registry/>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>TODO</Support>
+  <Project/>
+  <Overview>A simple REST API to monitor basic metrics such as Disk utilization and Network traffic.&#xD;
+&#xD;
+===== Configuration =====&#xD;
+By default the application expects a configuration file in&#xD;
+/mnt/user/appdata/unraid-simple-reporting-api/conf.yml&#xD;
+&#xD;
+You can find an example file here (https://github.com/NebN/unraid-simple-reporting-api/blob/master/conf/conf.yml)&#xD;
+&#xD;
+===== Utilization =====&#xD;
+Make a request to http://your-unraid-ip:24940</Overview>
+  <Category>Tools: Network:Other Status:Beta</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1711238170</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Main API Port" Target="24940" Default="24940" Mode="tcp" Description="Port through which the API communicates" Type="Port" Display="always" Required="true" Mask="false">24940</Config>
+  <Config Name="Configuration file path" Target="/app/conf.yml" Default="/mnt/user/appdata/unraid-simple-monitoring-api/conf.yml" Mode="ro" Description="The API's configuration" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/unraid-simple-monitoring-api/conf.yml</Config>
+  <Config Name="Root path of Unraid" Target="/hostfs" Default="/" Mode="ro" Description="Root path for the container to be able to read the host's data. It is read only." Type="Path" Display="always" Required="true" Mask="false">/</Config>
+</Container>
