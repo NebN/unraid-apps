@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>unraid-simple-monitoring-api</Name>
-  <Repository>https://github.com/NebN/unraid-simple-reporting-api/blob/master/conf/conf.yml</Repository>
+  <Repository>https://github.com/NebN/unraid-simple-monitoring-api/blob/master/conf/conf.yml</Repository>
   <Registry/>
   <Network>host</Network>
   <MyIP/>
@@ -13,9 +13,9 @@
 &#xD;
 ===== Configuration =====&#xD;
 By default the application expects a configuration file in&#xD;
-/mnt/user/appdata/unraid-simple-reporting-api/conf.yml&#xD;
+/mnt/user/appdata/unraid-simple-monitoring-api/conf.yml&#xD;
 &#xD;
-You can find an example file here (https://github.com/NebN/unraid-simple-reporting-api/blob/master/conf/conf.yml)&#xD;
+You can find an example file here (https://github.com/NebN/unraid-simple-monitoring-api/blob/master/conf/conf.yml)&#xD;
 &#xD;
 ===== Utilization =====&#xD;
 Make a request to http://your-unraid-ip:24940</Overview>
@@ -26,7 +26,7 @@ Make a request to http://your-unraid-ip:24940</Overview>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1711238170</DateInstalled>
+  <DateInstalled>1711238626</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
