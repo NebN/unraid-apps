@@ -23,11 +23,11 @@ Make a request to http://your-unraid-ip:24940</Overview>
   <Category>Tools: Network:Other Status:Beta</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://github.com/NebN/unraid-simple-monitoring-api/blob/master/assets/logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/NebN/unraid-simple-monitoring-api/master/assets/logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1711297892</DateInstalled>
+  <DateInstalled>1711313782</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
