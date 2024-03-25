@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>TODO</Support>
+  <Support>https://forums.unraid.net/topic/159146-support-unraid-simple-monitoring-api</Support>
   <Project>https://github.com/NebN/unraid-simple-monitoring-api</Project>
   <Overview>A simple REST API to monitor basic metrics such as Disk utilization and Network traffic.&#xD;
 Initially created for use with https://gethomepage.dev/&#xD;
