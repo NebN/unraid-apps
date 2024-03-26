@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>unraid-simple-monitoring-api</Name>
   <Repository>nebn/unraid-simple-monitoring-api:latest</Repository>
-  <Registry>https://hub.docker.com/</Registry>
+  <Registry>https://hub.docker.com/r/nebn/unraid-simple-monitoring-api</Registry>
   <Network>host</Network>
   <MyIP/>
   <Shell>sh</Shell>
@@ -27,7 +27,7 @@ Make a request to http://your-unraid-ip:24940</Overview>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1711313782</DateInstalled>
+  <DateInstalled>1711454233</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
