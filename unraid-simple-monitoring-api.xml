@@ -33,6 +33,6 @@ Make a request to http://your-unraid-ip:24940</Overview>
   <DonateLink>https://www.buymeacoffee.com/nebn</DonateLink>
   <Requires/>
   <Config Name="Main API Port" Target="24940" Default="24940" Mode="tcp" Description="Port through which the API communicates" Type="Port" Display="always" Required="true" Mask="false">24940</Config>
-  <Config Name="Configuration file path" Target="/app/conf.yml" Default="/mnt/user/appdata/unraid-simple-monitoring-api/conf.yml" Mode="ro" Description="The API's configuration" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/unraid-simple-monitoring-api/conf.yml</Config>
+  <Config Name="Configuration folder path" Target="/app" Default="/mnt/user/appdata/unraid-simple-monitoring-api" Mode="ro" Description="Folder for the API's configuration files. Create conf.yml here." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/unraid-simple-monitoring-api</Config>
   <Config Name="Root path of Unraid" Target="/hostfs" Default="/" Mode="ro" Description="Root path for the container to be able to read the host's data. It is read only." Type="Path" Display="always" Required="true" Mask="false">/</Config>
 </Container>
